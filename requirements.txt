@@ -1,0 +1,17 @@
+# ETABS MCP Server v2.4 - Dependencies
+# =====================================
+# CRITICAL: Python 3.11 ONLY (comtypes requirement)
+# Install: pip install -r requirements.txt
+
+# Core MCP Framework
+mcp>=1.0.0
+
+# Windows COM Interface (ETABS connection)
+# CRITICAL: comtypes ONLY works reliably with Python 3.11
+comtypes>=1.2.0
+
+# Data Processing (if needed for table operations)
+pandas>=2.0.0
+
+# Standard library dependencies (usually pre-installed)
+# json, sys, os are built-in

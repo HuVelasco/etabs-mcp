@@ -1,0 +1,73 @@
+# ── Build output ──────────────────────────────────────────────────────────────
+bin/
+obj/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# ── Runtime-generated API intelligence files (not source) ────────────────────
+api_confidence_tracking.json
+complete_api_database.json
+api_intelligence/
+knowledge_base/
+
+# ── Test scripts (dev only) ───────────────────────────────────────────────────
+test_*.py
+debug_*.py
+run_extraction.py
+surprise_parametric_tower.py
+
+# ── Work notes & scratch files (private) ─────────────────────────────────────
+archive/
+etabs-mcp-old-patterns/
+production-backup/
+MCP_Tester_agent/
+Real-world-tests/
+resources/
+docs/
+*.work.txt
+*.work.txt.backup
+*.work.md
+.HUGO*.md
+
+# ── Test data & Excel scratch files ──────────────────────────────────────────
+test_confidence.json
+simple_comparison_results.json
+temp_notebook_recovery.ipynb
+Parametric_Building_Config.xlsx
+test_building_config.xlsx
+Simple_Building_Config.xlsx
+frame-crud-test-results.txt
+
+# ── Session docs (private) ────────────────────────────────────────────────────
+API_INTELLIGENCE_*.md
+BASELINE_CREATION_TESTS.md
+BRANCH_MCP_V2.4_PLAN.md
+BRANCHING_STRATEGY.md
+COMPLETE_API_ROADMAP.md
+COMPREHENSIVE_COMPARISON_REPORT.md
+CURRENT_STATE_SNAPSHOT.md
+ETABS_API_*.md
+FINAL_TEST_RESULTS.md
+GRID_MODIFICATION_FINDINGS.md
+HONEST_TEST_RESULTS.md
+INTEGRATION_SUMMARY*.md
+INTELLIGENCE_LAYER_IMPROVEMENTS.md
+KNOWN_ISSUES_AND_LIMITATIONS.md
+MCP_TESTING_STRATEGY.md
+MCP_TOOLS_REFERENCE.md
+MODIFIED_FILES_REPORT.md
+PROJECT_STATUS.md
+Quick_Steel_Design_Report.md
+README_IMPLEMENTATION_ACHIEVEMENT.md
+ROADMAP.md
+SETUP_AND_USAGE.md
+ULTRA_SIMPLE_RESULTS.md
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+nul
